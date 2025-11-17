@@ -1,0 +1,18 @@
+{
+  "name": "claude-code-plugins",
+  "owner": {
+    "name": "ShintaroaSuzuki"
+  },
+  "plugins": [
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ShintaroaSuzuki"
+      },
+      "source": "./plugins/frontend-design",
+      "category": "development"
+    }
+  ]
+}
