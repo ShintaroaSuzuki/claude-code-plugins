@@ -17,7 +17,8 @@ Claude Code で以下のコマンドを実行してください：
 Claude Code で以下のコマンドを実行してください：
 
 ```bash
-/plugin install frontend-design/shintaroasuzuki-plugins
+/plugin install frontend-design@shintaroasuzuki-plugins
+/plugin install commit-commands@shintaroasuzuki-plugins
 ```
 
 ## 利用可能なプラグイン
@@ -51,6 +52,35 @@ Claude Code でフロントエンド実装を依頼する際、このスキル�
 -   🎭 独創的なレイアウトと空間構成
 -   🎬 洗練されたアニメーションとマイクロインタラクション
 -   🎯 コンテキストに応じた適切な実装
+
+### commit-commands
+
+**Version:** 1.0.0
+
+**説明:** Git ワークフローを効率化するコマンドプラグインです。コミット、プッシュ、プルリクエスト作成などの作業をシンプルなコマンドで実行できます。
+
+**主な機能:**
+
+-   Git コミットの作成を簡略化
+-   日本語の Semantic Commit Message をサポート
+-   既にステージングされたファイルのみをコミット
+
+**使い方:**
+
+Claude Code で以下のコマンドを実行してください：
+
+```
+/commit  # 現在ステージングされている変更をコミット
+```
+
+**コミットメッセージの形式:**
+
+Semantic Commit Message 形式で日本語のコミットメッセージを自動生成します：
+
+-   `feat: 新機能を追加`
+-   `fix: バグを修正`
+-   `docs: ドキュメントを更新`
+-   など
 
 ## 開発
 
